@@ -1,3 +1,24 @@
+Goals
+=====
+
+Definitely:
+ * Zero redundancy with what's offered in systemd. This means no redundant code
+   for privilege dropping, daemonization, socket initialization, or logging
+ * Markdown for formatting posts
+ * Flat file storage in git
+ * Good HTTP caching headers
+ * Paginated index of posts
+
+Maybe:
+ * Certificates and TOTP for authentication
+ * External authentication
+ * Commenting, probably using an external service
+ * Automated syndication, probably using an external service
+ * Atom and RSS
+
+Definitely not:
+ * WYSIWYG
+
 Building Discontent on Fedora
 =============================
 
