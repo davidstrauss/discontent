@@ -21,6 +21,7 @@
 #include <stdlib.h>
 #include <systemd/sd-journal.h>
 #include <systemd/sd-daemon.h>
+#include <mkdio.h>
 
 int main(void) {
 	puts("Hello World");
