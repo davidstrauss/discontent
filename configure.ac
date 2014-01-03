@@ -17,4 +17,3 @@ AC_PROG_CC_C99
 
 AC_CONFIG_FILES(Makefile src/Makefile)
 AC_OUTPUT
-

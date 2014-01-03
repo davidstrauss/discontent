@@ -5,3 +5,11 @@ sudo yum install -y libtool
 autoreconf -f -i -Wall,no-obsolete
 ./configure
 make
+
+Libraries in Use
+================
+
+Markdown:   http://www.pell.portland.or.us/~orc/Code/discount/
+MicroHTTPD: https://www.gnu.org/software/libmicrohttpd/
+systemd:    http://www.freedesktop.org/software/systemd/man/sd-daemon.html
+            http://www.freedesktop.org/software/systemd/man/sd-journal.html
