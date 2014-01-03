@@ -19,8 +19,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <systemd/sd-journal.h>
+#include <systemd/sd-daemon.h>
 
 int main(void) {
-	puts("Hello World"); /* prints Hello World */
+	puts("Hello World");
+	sd_journal_print(LOG_INFO, "Hello, world.");
 	return EXIT_SUCCESS;
 }
