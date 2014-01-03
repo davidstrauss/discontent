@@ -1,4 +1,0 @@
-discontent
-==========
-
-Discontent Management System

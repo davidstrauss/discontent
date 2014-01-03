@@ -1,0 +1,2 @@
+bin_PROGRAMS=discontent
+discontent_SOURCES=discontent.c
