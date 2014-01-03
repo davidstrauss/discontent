@@ -22,7 +22,7 @@ Definitely not:
 Building Discontent on Fedora
 =============================
 
-sudo yum install -y libtool
+sudo yum install -y autoconf systemd-devel libmicrohttpd-devel libmarkdown-devel
 autoreconf -f -i -Wall,no-obsolete
 ./configure
 make
