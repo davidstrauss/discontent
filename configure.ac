@@ -16,7 +16,7 @@ AC_SEARCH_LIBS(markdown, markdown, [], [
         ])
 
 AC_PROG_CC
-AC_PROG_CC_C99
+AC_PROG_CC_STDC
 
 AC_CONFIG_FILES(Makefile src/Makefile)
 AC_OUTPUT
